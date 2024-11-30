@@ -1,7 +1,5 @@
 # Boilerplate_Flask_VReact
 
-# myPokeAPI Project
-
 Este proyecto como plantilla base de proyectos web.
 
 ## Tecnologías utilizadas
