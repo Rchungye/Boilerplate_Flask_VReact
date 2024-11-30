@@ -1,6 +1,6 @@
 from app import db
 from datetime import datetime
-from app.Models.Ability import Ability, pokemon_ability
+from app.Models.myModel1 import Ability, pokemon_ability
 
 
 pokemon_type = db.Table('pokemon_type',

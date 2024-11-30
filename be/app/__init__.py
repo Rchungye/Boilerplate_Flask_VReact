@@ -19,8 +19,8 @@ db = SQLAlchemy(app)
 Migrate(app, db)
 CORS(app, supports_credentials=True)
 
-from app.routes.PkmRoute import *
-from app.routes.AbilityRoute import *
+from app.routes.myRoute1 import *
+from app.routes.myRoute2 import *
 
 @app.cli.command()
 def seed():
