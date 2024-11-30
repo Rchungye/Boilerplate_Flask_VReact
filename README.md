@@ -16,9 +16,9 @@ Este proyecto funciona como plantilla base para proyectos de paginas web.
 Estos son los pasos y comandos que debes correr al momento de clonar el proyecto:
 
 Sobre la carpeta /be
-- Ejecutar el comando **cd .be** para acceder al directorio del backend.
+- Ejecutar el comando **cd be** para acceder al directorio del backend.
 - Crear un virtual Enviorement en la raiz de la ruta con el comando **python -m venv nombre_del_venv**
-- Situarse sobre la ruta del Virtual Enviorement con el comando **nombre_del_venv/Scripts/activate**
+- Situarse sobre la ruta del Virtual Enviorement con el comando **.\nombre_del_venv\Scripts\activate**
 - Instalar las dependencias del proyecto Flask con el comando **pip install -r requirements.txt**
 - Cree un archivo **.env** en la raíz del proyecto con la siguiente estructura:
 - - **DB_CONN = "mysql+pymysql://user:password@@192.168.0.0:3306/myDataBase"**
@@ -35,7 +35,7 @@ Sobre la carpeta /be
 Estos son los pasos y comandos que debes correr al momento de clonar el proyecto:
 
 Sobre la carpeta /fe
-- Ejecutar el comando **cd .fe** para acceder al directorio del frontend.
+- Ejecutar el comando **cd fe** para acceder al directorio del frontend.
 - Crear un archivo .env en la raíz del proyecto con la siguiente estructura:
 - - **VITE_BE_URL=your_backend_url_here**
 - - Reemplaza la URL con la que obtuviste al ejecutar el backend.
