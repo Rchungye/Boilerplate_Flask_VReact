@@ -1,6 +1,6 @@
 # Boilerplate_Flask_VReact
 
-Este proyecto como plantilla base de proyectos web.
+Este proyecto funciona como plantilla base para proyectos de paginas web.
 
 ## Tecnologías utilizadas
 
