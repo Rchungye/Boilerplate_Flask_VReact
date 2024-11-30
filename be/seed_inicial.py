@@ -3,8 +3,8 @@ import asyncio
 import aiohttp
 from app import db, app
 from sqlalchemy import insert
-from app.Models.Pkm import Pokemon, TypePkm, pokemon_type
-from app.Models.Ability import Ability, pokemon_ability
+from app.models.myModel2 import Pokemon, TypePkm, pokemon_type
+from app.models.myModel1 import Ability, pokemon_ability
 
 # Función wrapper para mantener compatibilidad
 def seed_db():

@@ -1,7 +1,7 @@
 from . import ControllerObject
 from datetime import datetime, date
 from app import app, db
-from app.Models.myModel1 import Ability
+from app.models.myModel1 import Ability
 
 def GetAllAbility():
     abilitys = Ability.query.all()
