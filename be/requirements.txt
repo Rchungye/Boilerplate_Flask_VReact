@@ -7,6 +7,7 @@ Flask-Cors==5.0.0
 Flask-Migrate==4.0.7
 mysql-connector-python==9.1.0
 pymysql==1.1.1
+Jinja2==3.1.4
 
 # Development dependencies
 alembic==1.9.2
@@ -21,7 +22,7 @@ cffi==1.17.1
 pycparser==2.22
 
 # Dependencies for data management and serialization
-marshmallow==3.19.0
+marshmallow==3.23.1
 Flask-Marshmallow==1.2.1
 
 # Security dependencies
